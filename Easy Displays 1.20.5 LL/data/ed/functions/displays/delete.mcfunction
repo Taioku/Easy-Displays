@@ -1,4 +1,0 @@
-execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_name":'"DELETE"'},count:1,id:"minecraft:name_tag"}}] at @s run kill @e[type=minecraft:item_display,limit=1,distance=..0.5,sort=nearest]
-execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_name":'"DELETE"'},count:1,id:"minecraft:name_tag"}}] at @s run kill @e[type=minecraft:block_display,limit=1,distance=..0.5,sort=nearest]
-execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_name":'"DELETEALL"'},count:1,id:"minecraft:name_tag"}}] at @s run kill @e[type=minecraft:item_display]
-execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_name":'"DELETEALL"'},count:1,id:"minecraft:name_tag"}}] at @s run kill @e[type=minecraft:block_display]
