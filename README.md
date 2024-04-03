@@ -2,4 +2,4 @@
 Create easy Item and Block Displays!
 
 # Lanter Load
-This project uses LanterLoad, a modern and lightweight library for datapack load order.
+This project uses [LanterLoad](https://github.com/LanternMC/Load), a modern and lightweight library for datapack load order.
