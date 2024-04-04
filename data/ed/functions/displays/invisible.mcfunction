@@ -1,0 +1,2 @@
+execute at @e[type=item,nbt={Item:{components:{"minecraft:custom_name":'"INVISIBLE"'},count:1,id:"minecraft:name_tag"}}] run data modify entity @e[type=item_frame,limit=1,distance=..0.5] Invisible set value 1b
+execute at @e[type=item,nbt={Item:{components:{"minecraft:custom_name":'"INVISIBLE"'},count:1,id:"minecraft:name_tag"}}] run data modify entity @e[type=glow_item_frame,limit=1,distance=..0.5] Invisible set value 1b

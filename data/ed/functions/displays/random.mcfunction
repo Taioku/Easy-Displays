@@ -1,0 +1,1 @@
+execute if entity @e[tag=Random] store result score $r ed.math run random value 1..25
